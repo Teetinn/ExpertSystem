@@ -19,9 +19,11 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Robust background job processing](https://laravel.com/docs/queues).
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Database : https://drive.google.com/file/d/1eGcyb3g2-lg0CHyvBkarGGRachRsKryC/view?usp=sharing
-
 ## How to use
+- Database : https://drive.google.com/file/d/1eGcyb3g2-lg0CHyvBkarGGRachRsKryC/view?usp=sharing
 - composer install
 - composer update (if you have one) just to make sure composer is compatible
 - php artisan serve (whatever if you had to create valet first)
+
+## Preview
+[![homepage.png](https://i.postimg.cc/BvmDC3Qg/homepage.png)](https://postimg.cc/cK8rsV3g)

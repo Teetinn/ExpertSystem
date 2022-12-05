@@ -16,14 +16,16 @@ class PertanyaanController extends Controller
     }
     public function next(Request $request)
     {
-        var_dump($test);
+        
+        // kemaren var_dump($test) disini
         if ($request->ID_Gejala == 'GE01') {
             if($request->answer == "true"){
                 $pertanyaan_selanjutnya = Gejala::where('id_gejala', 'GE02')->get()->first();
                 return view('pertanyaan')->with('pertanyaan',$pertanyaan_selanjutnya);           
-
             }else{
                 redirect()->back();
+                $pertanyaan_selanjutnya = Gejala::where('id_gejala', 'GE03')->get()->first();
+                return view('pertanyaan')->with('pertanyaan',$pertanyaan_selanjutnya);
             }
         }
         if($request->ID_Gejala == 'GE02'){
@@ -51,7 +53,7 @@ class PertanyaanController extends Controller
                 $pertanyaan_selanjutnya = Gejala::where('id_gejala', 'GE05')->get()->first();
                 return view('pertanyaan')->with('pertanyaan',$pertanyaan_selanjutnya);
             }else{
-                // unknown
+                return view('notfound');
             }
         }
         if($request->ID_Gejala == 'GE05'){
@@ -59,7 +61,7 @@ class PertanyaanController extends Controller
                 $jawaban = Penyakit::where('id_penyakit', 'PE01')->get()->first();
                 return view('jawaban')->with('jawaban', $jawaban);
             }else{
-                // unknown
+                return view('notfound');
             }
         }
         if($request->ID_Gejala == 'GE06'){
@@ -76,7 +78,7 @@ class PertanyaanController extends Controller
                 $pertanyaan_selanjutnya = Gejala::where('id_gejala', 'GE08')->get()->first();
                 return view('pertanyaan')->with('pertanyaan',$pertanyaan_selanjutnya);
             }else{
-                // unknown
+                return view('notfound');
             }
         }
         if($request->ID_Gejala == 'GE08'){
@@ -84,7 +86,7 @@ class PertanyaanController extends Controller
                 $pertanyaan_selanjutnya = Gejala::where('id_gejala', 'GE09')->get()->first();
                 return view('pertanyaan')->with('pertanyaan',$pertanyaan_selanjutnya);
             }else{
-                // unknown
+                return view('notfound');
             }
         }
         if($request->ID_Gejala == 'GE09'){
@@ -92,7 +94,7 @@ class PertanyaanController extends Controller
                 $pertanyaan_selanjutnya = Gejala::where('id_gejala', 'GE10')->get()->first();
                 return view('pertanyaan')->with('pertanyaan',$pertanyaan_selanjutnya);
             }else{
-                // unknown
+                return view('notfound');
             }
         }
         if($request->ID_Gejala == 'GE10'){
@@ -100,7 +102,7 @@ class PertanyaanController extends Controller
                 $jawaban = Penyakit::where('id_penyakit', 'PE02')->get()->first();
                 return view('jawaban')->with('jawaban', $jawaban);
             }else{
-                // unknown
+                return view('notfound');
             }
         }
         if($request->ID_Gejala == 'GE11'){
@@ -126,7 +128,7 @@ class PertanyaanController extends Controller
                 $jawaban = Penyakit::where('id_penyakit', 'PE03')->get()->first();
                 return view('jawaban')->with('jawaban', $jawaban);
             }else{
-                // unknown
+                return view('notfound');
             }
         }   
         if($request->ID_Gejala == 'GE14'){
@@ -143,7 +145,7 @@ class PertanyaanController extends Controller
                 $pertanyaan_selanjutnya = Gejala::where('id_gejala', 'GE16')->get()->first();
                 return view('pertanyaan')->with('pertanyaan',$pertanyaan_selanjutnya);
             }else{
-                // unknown
+                return view('notfound');
             }
         }
         if($request->ID_Gejala == 'GE16'){
@@ -151,7 +153,7 @@ class PertanyaanController extends Controller
                 $pertanyaan_selanjutnya = Gejala::where('id_gejala', 'GE17')->get()->first();
                 return view('pertanyaan')->with('pertanyaan',$pertanyaan_selanjutnya);
             }else{
-                // unknown
+                return view('notfound');
             }
         }
         if($request->ID_Gejala == 'GE17'){
@@ -160,7 +162,7 @@ class PertanyaanController extends Controller
                 return view('jawaban')->with('jawaban', $jawaban);
 
             }else{
-                // unknown
+                return view('notfound');
             }
         }
         if($request->ID_Gejala == 'GE18'){
@@ -168,7 +170,7 @@ class PertanyaanController extends Controller
                 $pertanyaan_selanjutnya = Gejala::where('id_gejala', 'GE19')->get()->first();
                 return view('pertanyaan')->with('pertanyaan',$pertanyaan_selanjutnya);
             }else{
-                // unknown
+                return view('notfound');
             }
         }
         if($request->ID_Gejala == 'GE19'){
@@ -176,7 +178,7 @@ class PertanyaanController extends Controller
                 $jawaban = Penyakit::where('id_penyakit', 'PE05')->get()->first();
                 return view('jawaban')->with('jawaban', $jawaban);
             }else{
-                // unknown
+                return view('notfound');
             }
         }
         if($request->ID_Gejala == 'GE20'){
@@ -184,16 +186,15 @@ class PertanyaanController extends Controller
                 $jawaban = Penyakit::where('id_penyakit', 'PE06')->get()->first();
                 return view('jawaban')->with('jawaban', $jawaban);
             }else{
-                // unknown
+                return view('notfound');            
             }
         }
         if($request->ID_Gejala == 'GE21'){
             if($request->answer == "true"){
                 $jawaban = Penyakit::where('id_penyakit', 'PE07')->get()->first();
                 return view('jawaban')->with('jawaban', $jawaban);
-
             }else{
-                // unknown
+                return view('notfound');
             }
         }
 

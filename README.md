@@ -22,6 +22,6 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 Database : https://drive.google.com/file/d/1eGcyb3g2-lg0CHyvBkarGGRachRsKryC/view?usp=sharing
 
 ## How to use
-composer install
-composer update (if you have one) just to make sure composer is compatible
-php artisan serve (whatever if you had to create valet first)
+- composer install
+- composer update (if you have one) just to make sure composer is compatible
+- php artisan serve (whatever if you had to create valet first)

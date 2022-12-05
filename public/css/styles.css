@@ -8,7 +8,9 @@ form, h1{
     width:80%;
 }
 
-
+.jwb_card{
+  border-radius: 5px 5px 0 0;
+}
 
 .left-grp{
   width: 60%;

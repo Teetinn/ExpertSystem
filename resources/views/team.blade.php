@@ -31,20 +31,20 @@
         </div>
         <div class="name-grp">
             <div class="name-card">
-                <h2 class="name-font">Dwi Rianto</h2>
-                <h3 class="nim-font">47842</h3>
-            </div>
-            <div class="name-card">
-                <h2 class="name-font">Putra Tjandra</h2>
-                <h3 class="nim-font">43354</h3>
-            </div>
-            <div class="name-card">
                 <h2 class="name-font">Alexander Christian Jauwandi</h2>
                 <h3 class="nim-font">45603</h3>
             </div>
             <div class="name-card">
                 <h2 class="name-font">Christine</h2>
                 <h3 class="nim-font">47189</h3>
+            </div>
+            <div class="name-card">
+                <h2 class="name-font">Dwi Rianto</h2>
+                <h3 class="nim-font">47842</h3>
+            </div>
+            <div class="name-card">
+                <h2 class="name-font">Putra Tjandra</h2>
+                <h3 class="nim-font">43354</h3>
             </div>
             <div class="name-card">
                 <h2 class="name-font">Wayan Suputra Mindra</h2>

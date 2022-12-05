@@ -57,8 +57,6 @@
                     <div class="rad-text">Tidak</div>
                 </label>
 
-
-        
                 <br>
                 <!-- <a class="previous" href="/prev">&#8249; Back</a> -->
                 <div class="btn-grp">
@@ -73,8 +71,6 @@
                     </script>
                 
                 </div>
-
-
                 <!-- coba -->
             </form>
 

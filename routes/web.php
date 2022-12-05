@@ -31,3 +31,7 @@ Route::post('answer', [PertanyaanController::class, 'next'])->name('answer');
 Route::get('/team', function () {
     return view('team');
 });
+
+Route::get('/notfound', function () {
+    return view('notfound');
+});

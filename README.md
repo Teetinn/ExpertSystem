@@ -26,4 +26,4 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - php artisan serve (whatever if you had to create valet first)
 
 ## Preview
-[![homepage.png](https://i.postimg.cc/BvmDC3Qg/homepage.png)](https://postimg.cc/cK8rsV3g)
+[![homepage.png](https://i.postimg.cc/kGKcJ5Wc/homepage.png)](https://postimg.cc/p5V8kRGh)

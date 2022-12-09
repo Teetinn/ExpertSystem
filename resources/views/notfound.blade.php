@@ -28,8 +28,10 @@
         <div class="cust-container vh-center">
             <h2>Penyakit tidak ditemukan</h2>
             <div><br></div>
+            <img src="image/bingung.png" height="200px" width="200px"/>
             <div class="btn-grp"><br>
-                <button class="btn btn-dark" type="button" id="kembali" value="Kembali">Kembali</button>
+
+                <input class="previous" type="button" id="kembali" value="Kembali" style="margin-top:2rem; width:200px;"></input>
                     <script>
                         document.querySelector('#kembali').addEventListener('click', function(){
                             window.history.back();

@@ -29,21 +29,14 @@
     <div class="bg-tosca">
         <div class="cust-container vh-center">
             <h1>{{ $jawaban->nama_penyakit }}</h1>
-            {!! $jawaban->solusi !!}<br>
+            
+            
+            <p class="solution-text">{!! $jawaban->solusi !!}</p><br>
             <div class="jwb_card">
                 <img src="image/G_Penyakit/G_{{$jawaban->id_penyakit}}.jpg" height="100px" width="100px"/>
                 <div class="container">
-                    {{-- <button class="btn btn-primary" href="/pertanyaan" type="button" id="keluar" value="Kembali">KELUAR</input> --}}
                 </div>
             </div>
-            {{-- <div class="btn-grp"><br>
-                <button class="btn btn-primary" type="button" id="kembali" value="Kembali">Keluar</button>
-                    <script>
-                        document.querySelector('#kembali').addEventListener('click', function(){
-                            window.history.back();
-                        });
-                    </script>
-        </div> --}}
     </div>
 </body>
 

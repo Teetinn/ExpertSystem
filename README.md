@@ -19,8 +19,13 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Robust background job processing](https://laravel.com/docs/queues).
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-## How to use
-- Database : https://drive.google.com/file/d/1eGcyb3g2-lg0CHyvBkarGGRachRsKryC/view?usp=sharing
+## Database
+- Link : https://drive.google.com/file/d/1IFThZ64ip87Zyzwr6To_VXsRigPk_hF7/view?usp=sharing
+## How to use database
+- Create new database with XAMPP at phpMyAdmin with the name is "knowledgebase"
+- Import the database (knowledgebase(2).sql) and then Go
+
+## How to use website
 - composer install
 - composer update (if you have one) just to make sure composer is compatible
 - php artisan serve (whatever if you had to create valet first)
